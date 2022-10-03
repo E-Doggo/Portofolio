@@ -1,0 +1,166 @@
+*{
+    font-family: "Work Sans";
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* @keyframes textAppear {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} */
+
+body{
+    background-color: hsla(156, 75%, 17%, 1);
+    color: #F2F2F2;
+    margin:0;
+    padding:0;
+}
+
+#titleHeader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0D0D0D;
+    width: 100%;
+}
+
+.headDiv{
+    padding:  0em 2em 0em 2em;
+    margin: 0em 2em 0em 2em;
+}
+
+#titleHeader > #navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#homeTitle{
+    font-size: 3em;
+    position: relative;
+}
+
+#titleHeader > #navbar > .navlink{
+    display: inherit;
+    padding: 3.5vw 1.5vw 3.5vw 1.5vw;
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 1.1em;
+}
+
+.navlink:hover{
+    background-color: hsla(73, 73%, 51%, 0.9);
+}
+
+.navlink:hover > div{
+    color:#0D0D0D
+}
+
+#disabled:hover{
+    background-color: gray;
+}
+
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2em 2em 2em 2em;
+    padding: 1rem 1rem 1rem;
+    width: 50%;
+    float: left;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: hsla(120, 25%, 17%, .9);
+}
+
+.paragraph > p{
+    font-size: 1vw;
+}
+
+/* .paragraph >*{
+    opacity: 0;
+    animation:  textAppear 1.5s ease-out 0s 1 forwards;
+} */
+
+.paragraph >h2{
+    font-size: 1.5vw;
+}
+
+#hobbies-list{
+    font-size: 1vw;
+}
+
+.description{
+    display: flex;
+    text-align: justify;
+    list-style: none;
+}
+
+.description > p{
+    margin-top: .30em;
+    margin-bottom: .30em;
+}
+
+.text{
+    text-align: justify;
+    margin-top: .30em;
+    margin-bottom: .30em;
+}
+
+.divImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  2rem 2rem 2rem 2rem;
+    width: 40%;
+}
+
+.divImg > img{
+    width: 30vw;
+    height: 60vh;
+    object-fit: contain;
+}
+
+
+.container{
+    display: flex;
+}
+
+.container_reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track{
+    background: #F2F2F2; 
+}
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb{
+    background: gray; 
+}
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

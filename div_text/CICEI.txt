@@ -1,0 +1,22 @@
+<div>
+   <h4 id="title">Centro de Investigación de Ciencias Exactas e Ingenierias</h4>
+        <p>
+            Sitio web oficial del CICEI, centro de investigación de la Universidad Catolica Boliviana 
+            el cual fue inaugurado el año 2018 con el objetivo de organizar la investigación realizada en la universidad
+        </p>
+        <p>
+            El trabajo realizado por mi persona en esta pagina inicialmente fue el de realización y documentación de pruebas del sistema de registro a inicios del año 2022.
+            Posteriormente, por cuestiones internas del equipo desarrollo, se me fueron asignadas tareas de implementación a la pagina para mantenerla actualizada con los eventos actuales que organizaba el centro.
+
+        </p>
+        <div id="divImg">
+            <img src="../imagenes/CICEI.png" alt="manual.png" id="imgPagina">
+        </div>
+        <div class = "footLinks">
+            <a href="https://e-doggo.github.io/Mi-Manual/index.html" target="_blank" id="linkDeploy" class="red_link">
+                <div>
+                    CICEI
+                </div>
+            </a>
+        </div>
+</div>

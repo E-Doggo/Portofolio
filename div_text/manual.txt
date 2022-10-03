@@ -1,0 +1,41 @@
+    <div>
+        <h4 id="title">Manual HMTL - CSS</h4>
+        <p>
+            Sitio web con información sobre la utilización de HTML y CSS realizado con el objetivo de tener un manual personal a mano en todo momento. El sitio contiene las siguientes secciones:
+            
+        </p>
+        <ul>
+            <li>
+                GUIA HTML
+            </li>
+            <LI>
+                GUIA CSS
+            </LI>
+            <li>
+                FLEXBOX
+            </li>
+            <li>
+                CONTACTOS
+            </li>
+        </ul>
+        <p>
+            La pagina ira evolucionando y mejorando con los nuevos conocimiento que vaya adquiriendo. 
+            Se realizara un mantenimiento continuo para mantener el codigo y el diseño actualizado.
+        </p>
+        <div id = "divImg">
+            <img src="../imagenes/manual.png" alt="manual.png" id="imgPagina">
+        </div>
+        
+        <div class = "footLinks">
+            <a href="https://github.com/E-Doggo/Mi-Manual" target="_blank" id="linkGit" class="red_link">
+                <div>
+                    Documentación
+                </div>    
+            </a>
+            <i class="fa fa-circle"></i>
+            <a href="https://e-doggo.github.io/Mi-Manual/index.html" target="_blank" id="linkDeploy" class="red_link">
+                <div>
+                    Manual
+                </div>
+            </a>
+        </div>

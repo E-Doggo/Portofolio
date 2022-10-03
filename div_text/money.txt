@@ -1,0 +1,25 @@
+<div>
+<h4 id="title">Billetera virtual</h4>
+        <p>
+            Pagina web que permite mantener registros sobre los gastos e ingresos personales. Desarrollado con <em>Gabriel Ichiro Balderrama</em>.
+            El objetivo del desarrollo de esta aplicación fue el comprender los fundamentos basicos del desarrollo incremental y detectar las ventajas/desventajas que este
+            metodo de trabajo conlleva.
+        </p>
+        <div id="divImg">
+            <img src="../imagenes/billetera.png" alt="manual.png" id="imgPagina">
+        </div>
+        <div class = "footLinks">
+            <a href="https://github.com/6abriel1chiro/money-guard-webapp" target="_blank" id="linkGit" class="red_link">
+                <div>
+                    Documentación
+                </div>
+            </a>
+            <i class="fa fa-circle"></i>
+            <a href="https://scintillating-phoenix-f5f06d.netlify.app" target="_blank" id="linkDeploy" class="red_link">
+                <div>
+                    Billetera Virtual
+                </div>
+            </a>
+        </div>
+
+</div>
