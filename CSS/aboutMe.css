@@ -10,14 +10,24 @@ html {
     box-sizing: inherit;
 }
 
-/* @keyframes textAppear {
-    from{
-        opacity: 0;
+
+@media only screen and (max-width: 700px) {
+    div.paragraph{
+        width: 100%;
     }
-    to {
-        opacity: 1;
+
+    div.divImg{
+        width: 100%;
+        float: center;
     }
-} */
+
+    div.divImg >img{
+        width: 240px;
+        height: 360px;
+        object-fit: contain;
+        overflow:visible;
+    }
+}
 
 body{
     background-color: hsla(156, 75%, 17%, 1);
@@ -87,7 +97,7 @@ body{
 }
 
 .paragraph > p{
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 /* .paragraph >*{
@@ -96,11 +106,11 @@ body{
 } */
 
 .paragraph >h2{
-    font-size: 1.5vw;
+    font-size: 1.5em;
 }
 
 #hobbies-list{
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 .description{
@@ -137,10 +147,12 @@ body{
 
 .container{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .container_reverse{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row-reverse;
 }
 
