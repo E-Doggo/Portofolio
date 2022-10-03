@@ -57,6 +57,11 @@ html {
     }
     div.inContainer > p{
         font-size: 10px;
+        margin-left: 0em;
+    }
+
+    header#titleHeader{
+        justify-content: center;
     }
 
 }

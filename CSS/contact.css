@@ -6,6 +6,20 @@ html {
     box-sizing: border-box;
 }
 
+
+@media only screen and (max-width: 750px) {
+    header#titleHeader{
+        justify-content: center;
+    }
+
+    img.linkImg{
+        height: 200px;
+        width: 200px;
+    }
+
+
+}
+
 *, *::before, *::after {
     box-sizing: inherit;
 }
@@ -80,6 +94,7 @@ body{
     color: white;
     font-size: 30px;
     margin-top: 20vh;
+    flex-wrap: wrap;
     /* padding: 5vh 2vw 5vh 2vw; */
     text-align: center;
     transition: .3s ease-in-out;
@@ -88,7 +103,8 @@ body{
 #contacts{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-around;
     width: 100%;
 

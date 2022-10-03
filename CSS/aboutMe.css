@@ -25,7 +25,10 @@ html {
         width: 240px;
         height: 360px;
         object-fit: contain;
-        overflow:visible;
+    }
+
+    header#titleHeader{
+        justify-content: center;
     }
 }
 
