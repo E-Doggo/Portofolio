@@ -13,7 +13,7 @@
             <img src="../imagenes/CICEI.png" alt="manual.png" id="imgPagina">
         </div>
         <div class = "footLinks">
-            <a href="https://e-doggo.github.io/Mi-Manual/index.html" target="_blank" id="linkDeploy" class="red_link">
+            <a href="https://cicei.cba.ucb.edu.bo" target="_blank" id="linkDeploy" class="red_link">
                 <div>
                     CICEI
                 </div>
